@@ -7,9 +7,13 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/ie10-viewport-bug-workaround.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/cover.css') }}">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/ie10-viewport-bug-workaround.css">
+    <link rel="stylesheet" href="css/cover.css">
+    {{--<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">--}}
+    {{--<link rel="stylesheet" href="{{ asset('css/ie10-viewport-bug-workaround.css') }}">--}}
+    {{--<link rel="stylesheet" href="{{ asset('css/cover.css') }}">--}}
     {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">--}}
     {{--heroku git:remote -a newname--}}
     <!-- Optional theme -->
@@ -67,10 +71,12 @@
     </div>
 
 
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js'"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-
-    <script src="{{asset('js/jquery-3.1.1.min.js') }}"></script>
-    <script src="{{asset('js/bootstrap.js')}}"></script>
-    <script src="{{asset('js/ie10-viewport-bug-workaround.js')}}"></script>
+    {{--<script src="{{asset('js/jquery-3.1.1.min.js') }}"></script>--}}
+    {{--<script src="{{asset('js/bootstrap.js')}}"></script>--}}
+    {{--<script src="{{asset('js/ie10-viewport-bug-workaround.js')}}"></script>--}}
 @endsection
 
